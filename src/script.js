@@ -1,8 +1,8 @@
-import { txtFiles } from './txtFiles.js';
+import { content } from './content.js';
 
 const container = document.getElementById('text-files-container');
 
-txtFiles.forEach(file => {
+content.forEach(file => {
   fetch(file)
     .then(response => response.text())
     .then(content => {
