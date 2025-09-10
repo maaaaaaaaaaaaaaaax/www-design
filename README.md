@@ -24,8 +24,8 @@ Each student will finish the course with a custom-designed and hosted website us
 ## Schedule
 
 - **6 sessions**: 2 blocks of 3 meetings (each 2 hours)
-- Two meeting blocks separated by a few weeks for independent working and project development  
-- First block: Website creation  
+- Two meeting blocks separated by a few weeks for independent working and project development
+- First block: Website creation
 - Second block: Website deployment
 
 ## Preparation
@@ -37,16 +37,19 @@ Each student will finish the course with a custom-designed and hosted website us
 ## Block 1
 
 **Day 1**
+
 - Check-in and Git installation review
 - Course overview
 - Discuss individual goals
 
 **Day 2**
+
 - Overview of the starter file
 - Introduction to HTML and CSS
 - Create a small HTML website using collected content
 
 **Day 3**
+
 - Review student websites
 - Discussion: adding interactivity
 - Introduction to basic JavaScript
@@ -60,14 +63,17 @@ Each student will finish the course with a custom-designed and hosted website us
 ## Block 2
 
 **Day 4**
+
 - Review of student websites
 - Q&A and help session
 
 **Day 5**
+
 - How to acquire a domain
 - Explanation: domains and hosting
 
 **Day 6**
+
 - Publish the websites
 - Retrospective, feedback, and wrap-up
 
@@ -77,9 +83,4 @@ Each student will finish the course with a custom-designed and hosted website us
 - Provide detailed session schedule
 - Introduction post in spaces
 
-
 ## References
-
-- [Web Archive Example: Furples Tumblr](http://web.archive.org/web/20120803122523/http://furples.tumblr.com/)
-- [GitHub Setup Guide](https://docs.github.com/en/get-started) (could be simplified for students)
-
