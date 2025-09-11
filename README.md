@@ -84,3 +84,4 @@ Each student will finish the course with a custom-designed and hosted website us
 - Introduction post in spaces
 
 ## References
+- modern css reset: https://www.joshwcomeau.com/css/custom-css-reset/
