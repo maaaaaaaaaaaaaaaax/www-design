@@ -1,7 +1,7 @@
 #!/bin/bash
 
-OUTPUT=content.js
-TARGET_DIR="content"
+OUTPUT=modules/content.js
+TARGET_DIR="./content"
 
 echo "export const content = [" > $OUTPUT
 
