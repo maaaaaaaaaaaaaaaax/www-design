@@ -25,7 +25,7 @@ export async function displayText(file, container) {
     const response = await fetch(file);
     const content = await response.text();
     const section = document.createElement("section");
-    section.innerHTML = `<pre>${content}</pre>`;
+    section.innerHTML = `<pre class="text">${content}</pre>`;
     container.appendChild(section);
   } catch (err) {
     const section = document.createElement("section");
@@ -38,7 +38,7 @@ const options = { year: "numeric", month: "long", day: "numeric", hour: "2-digit
 
 export function displayTimeStamp(date, container) {
   const section = document.createElement("section");
-  section.innerHTML = `<pre>${date.toLocaleDateString(
+  section.innerHTML = `<pre class="time-stamp">${date.toLocaleDateString(
     undefined,
     options
   )}</pre>`;
