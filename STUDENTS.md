@@ -67,6 +67,14 @@ Development workflow:
 
 [--]
 
+## In case of updates
+In case the original repository needs to be updated, you need to sync your forked version with the original. Run the following in your console:
+
+1. Add the original repository to your version: `git remote add upstream https://github.com/your-username/y2k-swag-webdesign-course.git`
+2. Collect all recent updates: `git fetch upstream`
+3. Integrate the updates into your main branch: `git merge upstream/main`
+
+
 ## Further Resources and Self-Help
 
 If you encounter problems, use the following resources before asking for direct support:
