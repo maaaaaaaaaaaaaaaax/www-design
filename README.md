@@ -30,15 +30,14 @@ Each student will finish the course with a custom-designed and hosted website us
 
 ## Preparation
 
-- Install and set up Git
-- Fork the course repository
-- Start collecting website content
+- Collect assets (images, gifs, text)
 
 ## Block 1
 
 **Day 1**
 
-- Check-in and Git installation review
+- Check-in and Git installation
+- Fork the course repository
 - Course overview
 - Discuss individual goals
 
