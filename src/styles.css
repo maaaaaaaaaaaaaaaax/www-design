@@ -1,0 +1,129 @@
+/* Y2K Style CSS */
+
+:root {
+  --neon-green: #00ff41;
+  --neon-blue: #0080ff;
+  --neon-pink: #ff0080;
+  --cyber-purple: #8a2be2;
+  --matrix-black: #000000;
+  --cyber-silver: #c0c0c0;
+  --spacer-xs: 8px;
+  --spacer-sm: 16px;
+  --spacer-md: 24px;
+  --spacer-lg: 32px;
+  --spacer-xl: 48px;
+  --spacer-xxl: 64px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: var(--spacer-md);
+  background: linear-gradient(45deg, #000000, #1a0033, #000066);
+  color: var(--neon-green);
+  font-family: 'Courier New', 'Monaco', monospace;
+  overflow-x: hidden;
+}
+
+/* Typography */
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 
+    0 0 5px var(--neon-green),
+    0 0 10px var(--neon-green),
+    0 0 15px var(--neon-green);
+  margin: var(--spacer-lg) 0;
+  text-align: center;
+  animation: glitch 2s infinite;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--neon-blue);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 
+    0 0 3px var(--neon-blue),
+    0 0 6px var(--neon-blue);
+  margin: var(--spacer-md) 0;
+  border-left: 4px solid var(--neon-pink);
+  padding-left: var(--spacer-sm);
+}
+
+p, .text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--cyber-silver);
+  text-shadow: 0 0 2px var(--cyber-silver);
+  margin: var(--spacer-sm) 0;
+  font-family: 'Courier New', monospace;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid var(--neon-pink);
+  border-radius: 0;
+  box-shadow: 
+    0 0 10px var(--neon-pink),
+    inset 0 0 10px rgba(255, 0, 128, 0.2);
+  filter: contrast(1.2) saturate(1.3);
+  transition: all 0.3s ease;
+  margin: var(--spacer-md) 0;
+}
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 
+    0 0 20px var(--neon-pink),
+    0 0 30px var(--neon-blue);
+  filter: contrast(1.4) saturate(1.5);
+}
+
+/* Utility Classes */
+.spacer-xs { margin: var(--spacer-xs); }
+.spacer-sm { margin: var(--spacer-sm); }
+.spacer-md { margin: var(--spacer-md); }
+.spacer-lg { margin: var(--spacer-lg); }
+.spacer-xl { margin: var(--spacer-xl); }
+.spacer-xxl { margin: var(--spacer-xxl); }
+
+.text-glow {
+  text-shadow: 
+    0 0 5px currentColor,
+    0 0 10px currentColor;
+}
+
+/* Animations */
+@keyframes glitch {
+  0%, 100% { transform: translateX(0); }
+  10% { transform: translateX(-2px) skew(-1deg); }
+  20% { transform: translateX(2px) skew(1deg); }
+  30% { transform: translateX(-1px) skew(0deg); }
+  40% { transform: translateX(1px) skew(-1deg); }
+  50% { transform: translateX(0px) skew(0deg); }
+}
+
+/* Cyber Grid Background */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    linear-gradient(rgba(0, 255, 65, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 255, 65, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+  pointer-events: none;
+  z-index: -1;
+}
