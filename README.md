@@ -5,7 +5,9 @@ Integrated Design Research
 **KISD**, TH Köln
 
 ----
-**YOU WILL CREATE AND DEPLOY YOUR OWN WEBSITE:** https://y2k-swag-webdesign-course.vercel.app/
+**YOU WILL CREATE AND DEPLOY YOUR OWN WEBSITE:** https://y2k-swag-webdesign-course.vercel.app/ 
+
+**HELP & SETUP WIKI**  [WIKI.md](WIKI.md)
 
 ## Course Concept
 
