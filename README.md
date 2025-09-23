@@ -82,9 +82,6 @@ Each student will finish the course with a custom-designed and hosted website us
 - Retrospective, feedback, and wrap-up
 
 ## Organizers' Tasks
-
-~~Customize a simple prepared theme~~
-~~Provide detailed session schedule~~
 - Introduction post in spaces
 
 ## References
