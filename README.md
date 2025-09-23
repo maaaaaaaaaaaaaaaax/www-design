@@ -4,6 +4,9 @@
 Integrated Design Research  
 **KISD**, TH Köln
 
+----
+**YOU WILL CREATE AND DEPLOY YOUR OWN WEBSITE:** https://y2k-swag-webdesign-course.vercel.app/
+
 ## Course Concept
 
 This course introduces the fundamentals of web design and deployment, focusing on the Y2K aesthetic. Content covers technical skills, project structure, participant tasks, scheduling, required materials, and location information.
