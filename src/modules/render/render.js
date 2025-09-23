@@ -8,7 +8,7 @@ export async function renderFiles() {
   const sortedFiles = await fetchSortedFiles(content);
 
   for (const fileInfo of sortedFiles) {
-    const currentDate = fileInfo.lastModified;
+    const currentDate = new Date(fileInfo.lastModified);
 
     if (fileInfo.fileType === "TXT") {
       displayTimeStamp(currentDate, container);
