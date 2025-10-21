@@ -9,6 +9,12 @@ Integrated Design Research
 
 **HELP & SETUP WIKI**  [WIKI.md](WIKI.md)
 
+## Notes Meeting
+- raffle students if there are too many
+- there needs to be more hours of active work, or decrease cp
+- get feedback halfway in, so that people still show up
+- or do 2 shorter courses 
+
 ## Course Concept
 
 This course introduces the fundamentals of web design and deployment, focusing on the Y2K aesthetic. Content covers technical skills, project structure, participant tasks, scheduling, required materials, and location information.
