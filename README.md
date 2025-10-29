@@ -1,4 +1,4 @@
-# Y2K Webdesign and Deployment Course
+# www-design, Development & Deployment
 
 **Felix Willen, Max Schmalenbach**  
 Integrated Design Research  
